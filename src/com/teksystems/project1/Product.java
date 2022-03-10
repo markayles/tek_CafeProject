@@ -1,4 +1,4 @@
-package com.teksystems;
+package com.teksystems.project1;
 
 public class Product
 {
