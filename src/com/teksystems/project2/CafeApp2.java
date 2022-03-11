@@ -36,7 +36,7 @@ public class CafeApp2
         System.out.printf("%s - %s (Unit Price: $%.2f) Quantity: %d Subtotal: $%.2f\n", espresso.getName(), espresso.getDescription(), espresso.getPrice(), espressoOrderNum, espressoSubTotal);
 
         double cappuccinoSubTotal = cappuccino.getPrice() * cappuccinoOrderNum;
-        subTotal += espressoSubTotal;
+        subTotal += cappuccinoSubTotal;
         System.out.printf("%s - %s (Unit Price: $%.2f) Quantity: %d Subtotal: $%.2f\n", cappuccino.getName(), cappuccino.getDescription(), cappuccino.getPrice(), cappuccinoOrderNum, cappuccinoSubTotal);
 
         System.out.printf("Subtotal: $%.2f\n", subTotal);
