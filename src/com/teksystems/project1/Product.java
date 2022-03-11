@@ -61,7 +61,7 @@ public class Product
     }
     //endregion
 
-    public double calculateProductTotal()
+    public double calculateProductSubtotal()
     {
         return quantity * price;
     }

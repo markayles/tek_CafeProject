@@ -2,7 +2,7 @@ package com.teksystems.project1;
 
 import java.util.Scanner;
 
-public class ProjectRunner
+public class Project1Runner
 {
     public static void run()
     {
