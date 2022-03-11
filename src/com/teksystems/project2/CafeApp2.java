@@ -1,14 +1,14 @@
-package com.teksystems.project1;
+package com.teksystems.project2;
 
 import java.util.Scanner;
 
-public class Project1Runner
+public class CafeApp2
 {
     public static void run()
     {
-        Product coffee = new Product("Coffee", "A coffee", 2.25f);
-        Product espresso = new Product("Espresso", "An espresso", 3.65f);
-        Product cappuccino = new Product("Cappuccino", "A cappuccino", 4.10f);
+        Coffee coffee = new Coffee("Coffee", "A coffee", 2.25f, false, false);
+        Espresso espresso = new Espresso("Espresso", "An espresso", 3.65f, false, false);
+        Cappuccino cappuccino = new Cappuccino("Cappuccino", "A cappuccino", 4.10f, false, false);
 
         Scanner scan = new Scanner(System.in);
 
