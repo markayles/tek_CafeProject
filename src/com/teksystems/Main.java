@@ -1,8 +1,6 @@
 package com.teksystems;
 
-import com.teksystems.project1.CafeApp1;
-import com.teksystems.project2.CafeApp2;
-import com.teksystems.Project3.CafeApp3;
+import com.teksystems.project3.CafeApp3;
 
 public class Main
 {

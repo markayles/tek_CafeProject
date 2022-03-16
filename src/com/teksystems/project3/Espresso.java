@@ -1,4 +1,4 @@
-package com.teksystems.Project3;
+package com.teksystems.project3;
 
 public class Espresso extends Product
 {
